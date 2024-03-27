@@ -1,0 +1,353 @@
+/* Penataan Umum */
+
+/* Aturan untuk body */
+body {
+  background-color: rgba(255, 255, 255, 0.95); /* Warna putih dengan sedikit transparansi */
+  margin: 0; /* Hapus margin default */
+  padding: 0; /* Hapus padding default */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Pilihan font yang sering digunakan dalam desain UI modern */
+}
+
+/* Aturan untuk gambar */
+img {
+    max-width: 100%; /* Gambar tidak melebihi lebar kontainer */
+}
+
+/* Aturan untuk header */
+header {
+  padding-top: 5px; /* Ruang di atas header */
+  background-color: #333; /* Warna latar belakang header */
+  color: #fff; /* Warna teks header */
+  height: 50px; /* Atur tinggi tetap untuk header */
+}
+
+/* Aturan untuk navbar */
+.navbar {
+  list-style-type: none; /* Hapus tanda bullet pada daftar navbar */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; /* Warna latar belakang navbar */
+  height: 70px; /* Atur tinggi tetap untuk navbar */
+  color: #fff; /* Warna teks navbar */
+}
+
+/* Aturan untuk kontainer navbar */
+.navbar-container {
+  width: auto;
+  margin: 0;
+  padding: 0 40px;
+  display: flex; /* Menggunakan flexbox untuk penataan */
+  justify-content: space-between; /* Menempatkan elemen pada ujung kiri dan kanan */
+  align-items: center; /* Menyamakan vertikal */
+}
+
+/* Aturan untuk logo */
+.logo {
+  width: 5%; /* Lebar logo */
+  font-size: 24px; /* Ukuran teks logo */
+  text-decoration: none;
+  color: #fff; /* Warna teks logo */
+}
+
+/* Aturan untuk tautan navbar */
+.navbar-links {
+  list-style: none; /* Hapus tanda bullet pada daftar link navbar */
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.navbar-links li {
+  display: inline-block; /* Tautan navbar berbaris horizontal */
+  margin-left: 20px; /* Ruang antar tautan navbar */
+}
+
+.navbar-links li:first-child {
+  margin-left: 0; /* Hapus margin kiri pada tautan navbar pertama */
+}
+
+.navbar-links a {
+  color: #fff; /* Warna teks tautan navbar */
+  text-decoration: none; /* Hapus dekorasi tautan */
+  transition: color 0.3s ease; /* Animasi perubahan warna teks saat hover */
+  position: relative; /* Posisi relatif untuk efek bawah saat hover */
+}
+
+.navbar-links a:not(.active):hover {
+  color: #00bcd4; /* Warna teks saat tautan navbar dihover */
+}
+
+.navbar-links a:not(.active):hover:after {
+  content: '_'; /* Garis bawah saat hover */
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-links a.active {
+  border-bottom: 2px solid #00bcd4; /* Garis bawah untuk tautan navbar aktif */
+}
+
+/* Aturan untuk section */
+section {
+    margin: 0; /* Hapus margin pada elemen section */
+}
+
+/* Aturan untuk .card */
+.card {
+  display: inline-block; /* Menampilkan elemen secara inline */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Efek bayangan */
+  transition: 0.3s; /* Transisi */
+  width: 290px; /* Lebar tetap */
+  border-radius: 5px; /* Sudut melengkung */
+  position: absolute; /* Posisi absolut */
+  height: auto; /* Tinggi otomatis */
+  background: linear-gradient(10deg, rgba(255, 255, 255, 0.074) 0%, rgba(255, 255, 255, 0.05) 100%); /* Latar belakang gradasi linier */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Garis tepi */
+  margin-right: 30px; /* Margin kanan */
+  margin-top: 10px; /* Margin atas */
+}
+
+/* Aturan untuk .card-post */
+.card-post {
+  position: relative; /* Posisi relatif */
+  display: inline-block; /* Menampilkan elemen secara inline */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Efek bayangan */
+  transition: 0.3s; /* Transisi */
+  width: 75%; /* Lebar tetap */
+  border-radius: 5px; /* Sudut melengkung */
+  margin-top: 10px; /* Margin atas */
+  margin-bottom: 20px; /* Margin bawah */
+  margin-left: 346px; /* Margin kiri */
+}
+
+/* Aturan untuk .container */
+.container {
+  margin-top: 10px; /* Margin atas */
+  position: relative; /* Posisi relatif */
+  display: grid; /* Menampilkan elemen dalam grid */
+  gap: 10px; /* Ruang antar elemen */
+  width: auto; /* Lebar otomatis */
+  justify-content: space-between; /* Menyamakan posisi elemen */
+  padding-top: 5px; /* Padding atas */
+  padding-left: 10px; /* Padding kiri */
+}
+
+/* Aturan untuk .product-image */
+.product-image {
+    position: relative; /* Posisi relatif */
+    display: inline-block; /* Menampilkan elemen secara inline */
+    margin-top: 0px; /* Margin atas */
+}
+
+/* Aturan untuk .small-image */
+.small-image img {
+    margin: auto; /* Margin otomatis */
+    position: absolute; /* Posisi absolut */
+    top: 10px; /* Jarak dari atas */
+    left: 25px; /* Jarak dari kiri */
+    width: 250px; /* Lebar gambar */
+    height: auto; /* Tinggi otomatis */
+    z-index: 1; /* Indeks z */
+}
+
+/* aturan untuk small-image-bottom img*/
+.small-image-bottom img {
+    margin: auto; /* Margin otomatis */
+    position: absolute; /* Posisi absolut */
+    right: 10px; /* Jarak dari kanan */
+    bottom: 0px; /* Jarak dari bawah */
+    width: 511px; /* Lebar gambar */
+    height: auto; /* Tinggi otomatis */
+    z-index: 1; /* Indeks z */
+}
+
+/* Aturan untuk .overlay */
+.overlay {
+    position: absolute; /* Posisi absolut */
+    top: 0; /* Jarak dari atas */
+    left: 0; /* Jarak dari kiri */
+    width: 100%; /* Lebar penuh */
+    height: 100%; /* Tinggi penuh */
+    z-index: 0; /* Indeks z */
+}
+
+/* Aturan untuk .montserrat-font */
+.montserrat-font {
+  font-family: "Montserrat", sans-serif; /* Font Montserrat */
+  font-optical-sizing: auto; /* Ukuran font optik otomatis */
+  font-weight: 600; /* Ketebalan font */
+  font-style: normal; /* Gaya font normal */
+}
+
+/* Aturan untuk .top */
+.top {
+  width: 100%; /* Lebar penuh */
+  height: 85%; /* Tinggi 85% */
+  overflow: hidden; /* Overflow tersembunyi */
+  border-radius: 0.7rem; /* Sudut melengkung */
+}
+
+/* Aturan untuk .top-post */
+.top-post {
+  width: 100%; /* Lebar penuh */
+  height: 85%; /* Tinggi 85% */
+  overflow: hidden; /* Overflow tersembunyi */
+  border-radius: 0.7rem; /* Sudut melengkung */
+}
+
+/* Aturan untuk .top img */
+.top img {
+  position: relative; /* Posisi relatif */
+  width: 100%; /* Lebar penuh */
+  height: auto; /* Tinggi otomatis */
+  object-fit: cover; /* Objek ditampilkan dengan ukuran penuh dan potongan */
+}
+
+/* Aturan untuk .title */
+.title {
+  color: #fff; /* Warna teks putih */
+  font-weight: bolder; /* Ketebalan font */
+  font-size: x-large; /* Ukuran font besar */
+  margin-left: 10px; /* Margin kiri */
+  margin-top: 80px; /* Margin atas */
+}
+
+/* Aturan untuk .label */
+.label {
+  margin: 0; /* Hapus margin */
+}
+
+/* Aturan untuk .values .ul */
+.values .ul {
+  list-style: none; /* Hapus tanda bullet dan efek item */
+  padding: 0; /* Hapus padding */
+  margin: 0; /* Hapus margin */
+  background-color: transparent; /* Hapus warna latar belakang */
+}
+
+/* Aturan untuk .value */
+.value {
+  margin-bottom: 5px; /* Margin bawah */
+}
+
+/* Aturan untuk .desc */
+.desc {
+  color: #000; /* Warna teks hitam */
+  margin: 0; /* Hapus margin */
+  opacity: 1; /* Opacity normal */
+  font-size: medium; /* Ukuran font medium */
+  font-weight: bold; /* Ketebalan font */
+  margin-left: 10px; /* Margin kiri */
+  margin-top: 5px; /* Margin atas */
+}
+
+/* Aturan untuk .desc-news */
+.desc-news {
+  color: #000; /* Warna teks hitam */
+  margin: 0; /* Hapus margin */
+  opacity: 1; /* Opacity normal */
+  font-size: normal; /* Ukuran font normal */
+  font-weight: normal; /* Ketebalan font normal */
+  margin-left: 10px; /* Margin kiri */
+  margin-top: 5px; /* Margin atas */
+}
+
+/* Aturan untuk .teks-tambahan */
+.teks-tambahan {
+  position: absolute; /* Posisi absolut */
+  bottom: 65px; /* Jarak dari bawah */
+  color: white; /* Warna teks putih */
+  font-size: x-large; /* Ukuran font besar */
+  font-weight: bolder; /* Ketebalan font */
+  padding-left: 5px; /* Padding kiri */
+  margin-bottom: 220px; /* Margin bawah */
+  z-index: 2; /* Indeks z */
+}
+
+/* Aturan untuk .teks-berita */
+.teks-berita {
+  position: absolute; /* Posisi absolut */
+  bottom: 5px; /* Jarak dari bawah */
+  text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Bayangan teks */
+  color: rgb(255, 255, 255); /* Warna teks putih */
+  font-size: x-large; /* Ukuran font besar */
+  font-weight: bolder; /* Ketebalan font */
+  padding-left: 10px; /* Padding kiri */
+  margin-bottom: 110px; /* Margin bawah */
+  z-index: 2; /* Indeks z */
+}
+
+/* Aturan untuk .teks-berita-khusus */
+.teks-berita-khusus {
+  position: absolute; /* Posisi absolut */
+  bottom: 5px; /* Jarak dari bawah */
+  color: rgb(255, 255, 255); /* Warna teks putih */
+  text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Bayangan teks */
+  font-size: x-large; /* Ukuran font besar */
+  font-weight: bolder; /* Ketebalan font */
+  padding-left: 10px; /* Padding kiri */
+  margin-bottom: 130px; /* Margin bawah */
+  z-index: 2; /* Indeks z */
+}
+
+/* Aturan untuk .title-overlay */
+.title-overlay {
+  position: absolute; /* Posisi absolut */
+  bottom: 0; /* Jarak dari bawah */
+  width: 100%; /* Lebar penuh */
+  color: white; /* Warna teks putih */
+  box-sizing: border-box; /* Ukuran kotak dengan padding dan border tetap sama */
+  z-index: 2; /* Indeks z */
+}
+
+/* Aturan untuk .container */
+.container {
+  display: inline-block; /* Menampilkan elemen secara inline */
+  width: auto; /* Lebar otomatis */
+}
+
+/* Aturan untuk .button */
+.button {
+  margin-left: 1300px; /* Margin kiri */
+  margin-top: 0; /* Hapus margin atas */
+  margin-bottom: 5px; /* Margin bawah */
+  background-color: #4e7cff; /* Warna latar belakang tombol */
+  color: #ffffff; /* Warna teks tombol */
+  width: 8.5em; /* Lebar tetap */
+  height: 2.9em; /* Tinggi tetap */
+  border: #4e7cff 0.2em solid; /* Garis tepi dengan warna yang cocok */
+  border-radius: 11px;
+  text-align: center;
+  line-height: 2.9em;
+  transition: all 0.6s ease;
+  position: relative;
+}
+
+/* Aturan untuk .button saat hover */
+.button:hover {
+  background-color: #3654ff;
+  cursor: pointer;
+}
+
+/* Aturan untuk svg di dalam .button */
+.button svg {
+  width: 1.6em;
+  margin-right: 0.5em;
+  vertical-align: middle;
+  position: absolute;
+  left: 0.5em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Aturan untuk teks di dalam .button */
+.text {
+  position: relative;
+  line-height: 2.2em;
+  margin-left: 1.3em;
+}
+
+
