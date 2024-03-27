@@ -1,11 +1,14 @@
-Honkai Star Rail Character Showcase
-Proyek ini sebenarnya tercipta secara tidak sengaja karena saya tidak sengaja melewatkan perintah tugas kuliah yang seharusnya menggunakan tabel. Ternyata, saya malah menciptakan situs web ini dengan bantuan ChatGPT dan Universe.io, dan tentu saja, sedikit inspirasi dari template Figma dan kegilaan Pinterest!
+# Honkai Star Rail Character Showcase
 
-Tentang Proyek
-Honkai Star Rail Character Showcase adalah sebuah situs web sederhana yang bertujuan untuk mengungkapkan kecintaan saya terhadap karakter-karakter keren dalam game Honkai Star Rail. Tapi jangan kira saya serius-serius amat, saya lebih suka bermain-main dengan imajinasi saya dan mewujudkan karakter-karakter ini dengan sedikit sentuhan konyol dan menyenangkan!
+Proyek ini tercipta secara tidak sengaja karena saya tidak sengaja melewatkan perintah tugas kuliah yang seharusnya menggunakan tabel. Ternyata, saya malah menciptakan situs web ini dengan bantuan ChatGPT dan Universe.io, serta terinspirasi oleh template Figma dan kegilaan Pinterest.
 
-Kenapa Memilih Ini?
-Saya tidak bisa menahan diri untuk menciptakan sesuatu yang lucu dan konyol dari proyek ini. Bagi saya, membuat situs web ini adalah kesempatan untuk bersenang-senang dan sedikit gila-gilaan. Terinspirasi oleh ChatGPT dan Universe.io, saya merasa bebas untuk mengekspresikan kepribadian kreatif saya dengan situs web ini.
+## Tentang Proyek
 
-Tujuan
+Honkai Star Rail Character Showcase adalah sebuah situs web yang bertujuan untuk mengungkapkan kecintaan saya terhadap karakter-karakter dalam game Honkai Star Rail. Meskipun dibuat secara tidak sengaja, proyek ini menjadi sarana bagi saya untuk mengekspresikan minat dan imajinasi saya dengan cara yang kreatif.
+
+## Alasan Pemilihan
+
+Saya merasa tertarik untuk menciptakan proyek ini karena ingin mengeksplorasi sisi kreatif saya dan mengekspresikan kecintaan saya terhadap dunia permainan. Dengan bantuan ChatGPT dan Universe.io, saya dapat mewujudkan ide-ide kreatif saya dalam proyek ini.
+
+## Tujuan
 Tujuan utama proyek ini adalah untuk membagikan informasi tentang karakter tersebut dan memberikan kesempatan kepada penggemar lainnya untuk berdiskusi dan menikmati konten terkait karakter favorit mereka dalam game Honkai Star Rail.
