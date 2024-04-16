@@ -10,4 +10,4 @@ Honkai Star Rail Character Showcase adalah sebuah situs web yang bertujuan untuk
 
 Saya merasa tertarik untuk menciptakan proyek ini karena ingin mengeksplorasi sisi kreatif saya dan mengekspresikan kecintaan saya terhadap dunia permainan. Dengan bantuan ChatGPT dan Universe.io, saya dapat mewujudkan ide-ide kreatif saya dalam proyek ini.
 
-### Coming SOON New Update
+# Coming SOON New Update
